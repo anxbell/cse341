@@ -1,4 +1,4 @@
-const awesomeFunction = (req, res, next) => {
+const personName = (req, res, next) => {
     res.json('David Erazo');
 };
 
@@ -6,4 +6,4 @@ const anotherPerson = (req, res, next) => {
     res.json('Awesome person');
 };
 
-module.exports = {awesomeFunction, anotherPerson};
+module.exports = {personName, anotherPerson};
